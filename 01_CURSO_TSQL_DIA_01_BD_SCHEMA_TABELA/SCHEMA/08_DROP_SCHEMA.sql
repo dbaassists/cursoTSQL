@@ -1,0 +1,11 @@
+SET LANGUAGE 'ENGLISH'
+GO
+
+/*
+
+1 - SCRIPT DROP SCHEMA
+
+*/
+
+DROP SCHEMA [dbaassists]
+GO

@@ -1,0 +1,19 @@
+SET LANGUAGE 'ENGLISH'
+
+/*
+
+1 - ALTERAÇÃO DA TABELA PARA INCLUSÃO DE UMA NOVA COLUNA
+
+*/
+
+ALTER TABLE [dbo].[Funcionario] ADD [DthInclusao] DATETIME
+GO
+
+/*
+
+1 - ALTERAÇÃO DA TABELA PARA EXCLUSÃO DE UMA NOVA COLUNA
+
+*/
+
+ALTER TABLE [dbo].[Funcionario] DROP COLUMN [DthInclusao]
+GO

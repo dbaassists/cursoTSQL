@@ -1,0 +1,11 @@
+SET LANGUAGE 'ENGLISH'
+GO
+
+/*
+
+1 - SCRIPT PARA CONCEDER AO USUARIO usrrelatorio APENAS PERMISSÃO NO SCHEMA dbaassists
+
+*/
+
+GRANT SELECT ON SCHEMA::dbaassists TO usrrelatorio
+GO

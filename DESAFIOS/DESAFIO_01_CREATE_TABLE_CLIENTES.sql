@@ -1,0 +1,11 @@
+-- Selecionando o Banco de Dados
+USE DBDBAASSISTS
+GO
+
+CREATE TABLE dbo.CLIENTES
+(
+Codigo INT NOT NULL IDENTITY(1,1)
+,Nome  VARCHAR(200) NOT NULL
+,Endereco VARCHAR(200) NOT NULL
+,Telefone VARCHAR(50) NOT NULL
+);

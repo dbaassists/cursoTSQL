@@ -1,0 +1,26 @@
+USE [master]
+GO
+
+/*
+
+CRIAÇÃO DO USUÁRIO usrrelatorio
+
+*/
+
+CREATE LOGIN [usrrelatorio] WITH PASSWORD=N'u$rR&el@t0R!02022', 
+DEFAULT_DATABASE=[master], 
+CHECK_EXPIRATION=OFF, 
+CHECK_POLICY=ON
+GO
+
+/*
+
+ASSOCIAÇÃO DE UM USUÁRIO A UM LOGIN
+
+*/
+
+
+USE [DBDBAASSISTS]
+GO
+CREATE USER [usrrelatorio] FOR LOGIN [usrrelatorio]
+GO
